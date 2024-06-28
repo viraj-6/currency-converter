@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("imeg.jpg");
+    background-size: cover;
+    font-size: 1.5rem;
+}
+.box{
+    display:flow-root;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 2rem 5rem 2rem 5rem;
+    background-color: #00224D;
+    border-radius: 1rem;
+    border: 5px solid #76c3ef;
+    color: #fff;
+}
+h2{
+    margin-bottom: 2rem;
+}
+.value{
+    text-align: left;  
+}
+input{
+    border: solid #000000;
+    border-radius: 10px;
+    margin-top: 3px;
+    font-size: 2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 25rem;
+}
+.selector{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 1.5rem;
+    gap: 2rem;    
+    
+}
+select{
+    width: 4rem;
+}
+
+img{
+    width: 3.5rem;
+}
+/* i{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0.5rem 1rem 0.5rem;
+} */
+select{
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    margin: 2rem 1rem 1rem 1rem;
+    font-size: 2rem;
+}
+.ico{
+    /* background-color: #00224D;*/
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 2.7rem;
+    display: flex;
+    justify-content: center;
+    /* outline: none;
+    border: solid #00224D; */
+}
+i{
+    
+    mask-size: 2rem;
+}
+#button{
+    width: 25rem;
+    border-radius: 10px;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
